@@ -1,26 +1,12 @@
 # FINNNCO Koulutuskertomukset
 
-Staattinen GitHub Pages -paketti kahdelle PDF-julkaisulle:
+Staattinen GitHub Pages -paketti.
 
-- Kohde 17
-- Täydellinen tukikohta
-
-## Käyttö
+## Käyttöönotto
 
 1. Pura ZIP.
-2. Siirrä sisältö GitHub-repon juureen.
-3. GitHubissa: Settings → Pages → Deploy from branch → main / root.
-4. Avaa julkaistu GitHub Pages -linkki.
+2. Kopioi kaikki tiedostot GitHub-repon juureen.
+3. Ota GitHub Pages käyttöön repon asetuksista.
+4. Julkaise main-haaran juuresta.
 
-## Rakenne
-
-```text
-index.html
-assets/
-  img/
-    kohde_17_cover.jpg
-    taydellinen_tukikohta_cover.jpg
-  pdf/
-    kohde_17_v1_4_kuvitettu.pdf
-    taydellinen_tukikohta_kuvitettu_toimitettu_v13.pdf
-```
+Etusivu on `index.html`. PDF-tiedostot ovat `pdf/`-kansiossa. Kansikuvat on upotettu suoraan HTML-tiedostoon, jotta ne eivät rikkoudu polkuvirheistä.
